@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded,ScrollViewSize,ObsoleteLayoutParam,UselessLeaf,ContentDescription,UselessParent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:weightSum="2" >
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="ชื่อ-สกุล :"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="พีระพล  วงศ์ประไพ"
+                    android:textColor="#777777"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#cccccc"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:weightSum="2" >
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="เบอร์โทร :"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:id="@+id/phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="090-09090909"
+                    android:textColor="#777777"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#cccccc"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:weightSum="2" >
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="ที่อยู่ :"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left"
+                    android:text="LPN 333 MFEC"
+                    android:textColor="#777777"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/changepass"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="#ededed"
+                android:gravity="center_vertical"
+                android:weightSum="5" >
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="4"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left|center_vertical"
+                    android:text="ตั้งรหัสผ่าน"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/iconarrow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/changepin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="#ededed"
+                android:gravity="center_vertical"
+                android:weightSum="5" >
+
+                <com.Helpme.mylocation.custom_view.CustomText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="4"
+                    android:fontFamily="DBHelvethaicaX.ttf"
+                    android:gravity="left|center_vertical"
+                    android:text="ตั้งรหัส pin"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/iconarrow2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e30053"
+                android:text="ตกลง"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="#717171"
+                android:text="ยกเลิก"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
